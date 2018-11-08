@@ -1,0 +1,220 @@
+/*全局*/
+body{
+    box-sizing: border-box;
+}
+/*顶部div样式*/
+.Sdiv1{
+    width:100%;
+    height:106px;
+    line-height: 106px;
+}
+/*div中的logo2图片*/
+.Simg1{
+    width:111px;
+    height:67px;
+}
+/*给div中li设宽高*/
+.Sli{
+    width:104px;
+    height:106px;
+}
+.Sli a:hover{
+    background-color: green;
+    color: white !important;
+}
+/*第二层背景图*/
+.Sbg{
+    background-image: url("../img/bg_02.jpg");
+    width: 100%;
+    height: 614px;
+}
+.Sbg:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/**二层文字图片外的div*/
+.Sdiv2{
+    padding-top: 100px;
+    width: 100%;
+    height:307px;
+    text-align: center;
+}
+/**二层文字图片*/
+.Simg2{
+
+}
+/*二层第二个文字图片的div*/
+.Sdiv3{
+    text-align: center;
+    padding-top: 30px;
+}
+/*二层第3个图片的div*/
+.Sdiv4{
+    text-align: center;
+    padding-top: 50px;
+}
+/*第三层*/
+.Sbg1{
+    background-image: url("../img/ggbg_03.jpg");
+    height: 110px;
+    width: 100%;
+    padding-top: 35px;
+}
+.Sbg2{
+
+    background-image: url("../img/ggbg_05.png");
+    width:884px;
+    height:42px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    line-height:42px;
+    padding-left:90px;
+}
+.Sbg2 a:hover{
+    text-decoration: none;
+
+}
+/*四层*/
+/*container*/
+.Con{
+    margin-bottom: 100px;
+}
+/*绿色下划线*/
+.hide_line{
+    background: #37c150;
+    width:38px;
+    height: 4px;
+    margin: 0  auto;
+
+}
+/*四层大图*/
+.Sbg3{
+    background-image: url("../img/about_19.jpg");
+    background-position: 85px 26px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+
+
+}
+/*四层文字*/
+.Sdiv5{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    margin-left: 500px;
+    padding-top:60px;
+    text-align: center;
+}
+/*五层*/
+/*大背景图*/
+.Sbg4{
+    background-image: url("../img/jifenbg_30.jpg");
+    width:100%;
+    height:842px;
+}
+/*黑色下划线*/
+.hide_line1{
+    background: #000000;
+    width:38px;
+    height: 4px;
+    margin: 0  auto;
+
+}
+/*文字大小*/
+.Sp{
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+/*流程图*/
+.Simg3{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/*积分兑换小背景*/
+.Sbg5{
+    background-image: url("../img/btn_38.png");
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    width:155px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
+.Sbg5:hover{
+    color: white;
+    text-decoration: none;
+}
+/*五层*/
+/*背景*/
+.Sbg6{
+    background-image: url("../img/about_19.jpg");
+    width: 943px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.left{
+    width: 478px;
+    height:300px;
+    float: left;
+}
+/*.Sbg7{*/
+    /*background-image: url("../img/btn_38.png");*/
+/*}*/
+.right{
+    width:406px;
+    height:300px;
+    float: left;
+    padding: 29px;
+}
+.Sh2{
+    font-size: 18px;
+    font-weight:bolder;
+    margin-top: 20px;
+}
+/*第七层*/
+.Sbg7{
+    background-image: url("../img/jifenbg_30.jpg");
+    width: 100%;
+    height: 380px;
+    margin-top: 80px;
+}
+/*第八层底部*/
+#bottom-menu{
+    width: 550px;
+    height: 60px;
+    margin: 0 auto;
+}
+#bottom-menu>ul{
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+#bottom-menu li{
+    width: 143px;
+    border-right: 1px solid #a8aaac;
+    text-align: center;
+    line-height: 16px;
+    float: left;
+    color: #9da0a3;
+    font-size: 18px;
+}
+/*第九层*/
+.Sbottom{
+    height: 51px;
+    width: 100%;
+    line-height: 51px;
+    color: #b2b2b1;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 100px;
+}

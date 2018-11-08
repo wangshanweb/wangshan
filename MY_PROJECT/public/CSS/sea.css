@@ -1,0 +1,88 @@
+/*背景图*/
+body{
+    background-image: url("../img/index.JPG");
+    position: relative;
+}
+/*logo定位*/
+.sea_logo{
+    position:absolute;
+    top:50px;
+    left:40px;
+    width:210px;
+    height: 72px;
+}
+/*世界海洋日*/
+.sea_img1{
+    width: 699px;
+    height:142px;
+    position: absolute;
+    top:100px;
+    left:36%;
+}
+
+/*奋进新时代*/
+.sea_img2{
+    width:699px;
+    height:134px;
+    position: absolute;
+    top:260px;
+    left:36%;
+}
+/*轮播*/
+.d_lunbo{
+    position:absolute;
+    top:400px;
+    left:30%;
+    width:854px;
+    height: 379px;
+}
+
+.card{
+    width:246px;
+    height:auto;
+    border-radius: 11px;
+}
+/*li中的大图*/
+.s_img1{
+    width:246px;
+    height:167px;
+}
+/*baoming位置*/
+.b_img{
+    position: absolute;
+    top:130px;
+    right:91px;
+}
+@keyframes  turn{
+    0%{
+        transform:rotate(0deg)
+    }
+
+    100%{
+        transform:rotate(360deg)
+    }
+
+}
+.b_img:hover{
+    cursor: pointer;
+    animation: turn 0.3s linear 1;
+
+}
+/*保护海洋文字*/
+.a-bao{
+    font-weight: bold;
+}
+/*2018*/
+.start{
+    font-size: 14px;
+ }
+/*蓝丝带图标*/
+.lansidai{
+    background-image: url("../img/lansidai.jpg");
+    display:inline-block;
+    border-radius:50%;
+    width: 38px;
+    height: 38px;
+    background-position: -1px 2px;
+    border:1px solid #aaaaaa;
+}

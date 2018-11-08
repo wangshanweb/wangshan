@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css"/>
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/index.css">
+
+
+    <script src="JS/jquery-3.2.1.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/header.js"></script>
+    <script src="JS/footer.js"></script>
+    <script src="JS/index.js"></script>
+
+
+    <!--    <script src="JS/ajax.js"></script>-->
+    <title>畅想绿色</title>
+</head>
+<body>
+<!--首页头部-->
+<div>
+    <header id="header">
+
+    </header>
+    <!--中间主体-->
+    <div class="bg-light">
+        <!--首页轮播图-->
+        <div>
+            <!--<img src="img/cef2dae7-cbb4-420c-9bd2-7b9496b04ef2.bak.jpg" class="d-block m-auto ">-->
+
+            <div class="carousel slide carousel-fade" data-target="carousel" id="content" data-ride="carousel" data-interval="1500">
+                <!--导航指示符-->
+                <ul class="carousel-indicators">
+                    <li  class="active" data-target="#content" data-slide-to="0"></li>
+                    <li data-target="#content" data-slide-to="1"></li>
+                    <li data-target="#content" data-slide-to="2"></li>
+                    <li data-target="#content" data-slide-to="3"></li>
+                </ul>
+                <!--轮播图片-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><a href="student.html"><img src="img/13jie.jpg" class="d-block m-auto "></a></div>
+                    <div class="carousel-item"><img src="img/xiaozhu.jpg" class="d-block m-auto"></div>
+                    <div class="carousel-item"><img src="img/shamo.jpg" class="d-block m-auto"></div>
+                    <div class="carousel-item"><img src="img/kuaile.jpg" class="d-block m-auto"></div>
+                </div>
+                <!--左右箭头-->
+                <a href="#content" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a href="#content" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-iconou"></span></a>
+            </div>
+
+
+        </div>
+        <!--一层-->
+        <div class="container">
+            <div class="d-flex row ml-0 mr-0 mt-5 mb-3">
+                <div class="col-5 ">
+                    <ul class="list-unstyled nav nav-pills">
+                        <li class="nav-item mt-0 mb-2">
+                            <a href="#home1" class="nav-link text-dark " data-toggle="pill">众筹</a>
+                        </li>
+                        <li class="nav-item mt-0">
+                            <a href="#home2" class="nav-link text-dark active" data-toggle="pill">活动</a>
+                        </li>
+                        <li class="nav-item mt-0">
+                            <a href="#home3" class="nav-link text-dark" data-toggle="pill">社团</a>
+                        </li>
+                        <li class="nav-item mt-0">
+                            <a href="#home4" class="nav-link text-dark" data-toggle="pill">动态</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1 offset-6 p-0">
+                    <a href="#" class="text-dark a_ih">更多 ></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container  border-bottom">
+            <!--四张图片-->
+            <div class="tab-content">
+                <div class="row m-0 tab-pane active" id="home2">
+                    <div class="col-12 p-0">
+                        <ul class="list-unstyled d-flex justify-content-between container p-0 m-0 address">
+                            <li class="border li_w li_p bg-white">
+                                <div class=" border-danger my_div"><img src="img/jiaoshi.jpg"
+                                                                        class="img-fluid my_img BIMG"></div>
+                                <div>
+                                    <p class="li_w p-p">
+                                        <a href="#" class="a_ih">招志愿者——生活中的海洋 </a>
+                                    </p>
+                                    <div>
+                                        <a href="#">
+                                            <img src="img/baoming.png" class="img" id="aa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="color ">
+                                    <img src="img/zuobiao.png" class="i-pl">9月1日 17:35 开始
+                                </div>
+                                <div class="pt-2">
+                                    <img src="img/zuobiao%20(2).png" class="i-pl">
+                                    <span class="color">上海</span><span class="text-warning mian">免费</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div">
+                                    <img src="img/sanren.jpg" class="img-fluid my_img">
+                                </div>
+                                <div>
+                                    <p class="li_w p-p">
+                                        <a href="#" class=" a_ih">超火超skr的活动，等你来pick！</a>
+                                    </p>
+                                    <div>
+                                        <a href="#">
+                                            <img src="img/baoming.png" class="img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="color"><img src="img/zuobiao.png" class="i-pl">8月6日 00:00 开始</div>
+                                <div class="pt-2">
+                                    <img src="img/zuobiao%20(2).png" class="i-pl">
+                                    <span class="color">长沙</span><span class="text-warning mian">免费</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div">
+                                    <img src="img/paint.jpg" class="img-fluid my_img ">
+                                </div>
+                                <div>
+                                    <p class="li_w p-p">
+                                        <a href="#" class=" a_word a_ih">人与环境生态摄影展</a>
+                                    </p>
+                                    <div>
+                                        <a href="#">
+                                            <img src="img/baoming.png" class="img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="color"><img src="img/zuobiao.png" class="i-pl">6月30日 00:00 开始</div>
+                                <div class="pt-2">
+                                    <img src="img/zuobiao%20(2).png" class="i-pl">
+                                    <span class="color">上海</span><span class="text-warning mian">免费</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div">
+                                    <img src="img/lanjing.jpg" class="img-fluid my_img">
+                                </div>
+                                <div>
+                                    <p class="li_w p-p">
+                                        <a href="#" class=" a_ih">暑期带娃,一起拯救Blue Planet</a>
+                                    </p>
+                                    <div>
+                                        <a href="#">
+                                            <img src="img/baoming.png" class="img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="color"><img src="img/zuobiao.png" class="i-pl">7月1日 11:50 开始</div>
+                                <div class="pt-2">
+                                    <img src="img/zuobiao%20(2).png" class="i-pl">
+                                    <span class="color">上海</span><span>￥50</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row m-0 tab-pane" id="home1">
+                    <div class="col-12 p-0">
+                        <ul class="list-unstyled d-flex justify-content-between container p-0 m-0 address">
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/haian.png" class="img-fluid my_img">
+                                    </a>
+                                    <div class="progressing text-white">进行中</div>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">守护海岸卫士</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="pl-3 pr-2"><img src="img/01.png">&nbsp;45</span>
+                                    <span class="pr-2"><img src="img/heart.png">&nbsp;0</span>
+                                    <span><img src="img/talk.png">&nbsp;0</span>
+                                </div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">本着保护海洋的原则巡护红树林。</span>
+                                </div>
+                                <div class="my_small">
+                                    <span class="pr-2"><img src="img/dollar.png">&nbsp;10220</span>
+                                    <span class="pr-2"><img src="img/biao.png">&nbsp;剩269天</span>
+                                    <span><img src="img/zuo.png">&nbsp;三亚</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/xiaohai.png" class="img-fluid my_img">
+                                    </a>
+                                    <div class="progressing text-white">进行中</div>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">播种未蓝</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="pl-3 pr-2"><img src="img/01.png">&nbsp;170</span>
+                                    <span class="pr-2"><img src="img/heart.png">&nbsp;0</span>
+                                    <span><img src="img/talk.png">&nbsp;0</span>
+                                </div>
+                                <div>
+                                    <span class="my_small color   text-truncate ">传播海洋知识，提高全民意识。</span>
+                                </div>
+                                <div class="my_small">
+                                    <span class="pr-2"><img src="img/dollar.png">&nbsp;10496</span>
+                                    <span class="pr-2"><img src="img/biao.png">&nbsp;剩330天</span>
+                                    <span><img src="img/zuo.png">&nbsp;三亚</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/zhihelaji.png" class="img-fluid my_img">
+                                    </a>
+                                    <div class="progressing text-white">进行中</div>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">纸坊河垃圾分类项目</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="pl-3 pr-2"><img src="img/01.png">&nbsp;1088</span>
+                                    <span class="pr-2"><img src="img/heart.png">&nbsp;4</span>
+                                    <span><img src="img/talk.png">&nbsp;1</span>
+                                </div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">孩子号召村民们一起拾垃圾</span>
+                                </div>
+                                <div class="my_small">
+                                    <span class="pr-2"><img src="img/dollar.png">&nbsp;100538</span>
+                                    <span class="pr-2"><img src="img/biao.png">&nbsp;剩1天</span>
+                                    <span><img src="img/zuo.png">&nbsp;安康</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div1">
+                                    <a href="#"><img src="img/lajifenlei.jpg" class="img-fluid my_img">
+                                    </a>
+                                    <div class="progressing text-white">进行中</div>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">垃圾分类 举手之劳</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="pl-3 pr-2"><img src="img/01.png">&nbsp;525</span>
+                                    <span class="pr-2"><img src="img/heart.png">&nbsp;10</span>
+                                    <span><img src="img/talk.png">&nbsp;1</span>
+                                </div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">将“垃圾分类”的具体办法加以推广。</span>
+                                </div>
+                                <div class="my_small">
+                                    <span class="pr-2"><img src="img/dollar.png">&nbsp;102000</span>
+                                    <span class="pr-2"><img src="img/biao.png">&nbsp;剩75天</span>
+                                    <span><img src="img/zuo.png">&nbsp;成都</span>
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row m-0 tab-pane" id="home3">
+                    <div class="col-12 p-0">
+                        <ul class="list-unstyled d-flex justify-content-between container p-0 m-0 address">
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/action.png" class="img-fluid my_img">
+                                    </a>
+                                    <div class="d-progress">
+                                        <a href="#" class="progressing1 text-white">
+                                            植树防沙</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            绿色教育</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            高校活动</a>
+                                    </div>
+
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p mt-5">
+                                        <a href="#" class="a_ih a_word ">南开大学绿色行动小组</a>
+                                    </p>
+                                </div>
+                                <div class="img_19">
+                                </div>
+                                <div class="vv">V</div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">普及环保知识，实践绿色生活。</span>
+                                </div>
+                                <div class="pt-2">
+                                    <span class="small"><img src="img/zuo.png">天津</span>
+                                    <span class="pl-2"><i class="icon pr-1"></i>59</span>
+                                </div>
+                                <div class="hd_line"></div>
+                                <div><a href="#" class="join">+加入社团</a></div>
+                            </li>
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/yancheng.jpg" class="img-fluid my_img">
+                                    </a>
+
+
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p mt-5">
+                                        <a href="#" class="a_ih a_word ">盐城市生态环境科学研究会</a>
+                                    </p>
+                                </div>
+                                <div class="img_lvye"></div>
+                                <div class="vv">V</div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">开展学术交流、科普宣教和咨询服务。</span>
+                                </div>
+                                <div class="pt-2">
+                                    <span class="small"><img src="img/zuo.png">盐城</span>
+                                    <span class="pl-2"><i class="icon pr-1"></i>20</span>
+                                </div>
+                                <div class="hd_line"></div>
+                                <div><a href="#" class="join">+加入社团</a></div>
+                            </li>
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/haian.png" class="img-fluid my_img">
+                                    </a>
+                                    <div class="d-progress">
+                                        <a href="#" class="progressing1 text-white">
+                                            海洋保护</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            湿地保护</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            高校活动</a>
+                                    </div>
+
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p mt-5">
+                                        <a href="#" class="a_ih a_word ">蓝丝带海洋保护三亚学院服务社</a>
+                                    </p>
+                                </div>
+                                <div class="img_lansidai"></div>
+                                <div class="vv">V</div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">团结力量，保护美丽海洋</span>
+                                </div>
+                                <div class="pt-2">
+                                    <span class="small"><img src="img/zuo.png">三亚</span>
+                                    <span class="pl-2"><i class="icon pr-1"></i>67</span>
+                                </div>
+                                <div class="hd_line"></div>
+                                <div><a href="#" class="join">+加入社团</a></div>
+                            </li>
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/anhui.jpg" class="img-fluid my_img">
+                                    </a>
+                                    <div class="d-progress">
+                                        <a href="#" class="progressing1 text-white">
+                                            绿色教育</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            湿地保护</a>
+                                        <a href="#" class="progressing1 text-white">
+                                            高校活动</a>
+                                    </div>
+
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p mt-5">
+                                        <a href="#" class="a_ih a_word ">安徽大学环境保护协会</a>
+                                    </p>
+                                </div>
+                                <div class="img_anhui1"></div>
+                                <div class="vv">V</div>
+                                <div>
+                                    <span class="my_small color pl-3  text-truncate ">环保路上，你我同行。</span>
+                                </div>
+                                <div class="pt-2">
+                                    <span class="small"><img src="img/zuo.png">合肥</span>
+                                    <span class="pl-2"><i class="icon pr-1"></i>356</span>
+                                    <span></span>
+                                </div>
+                                <div class="hd_line"></div>
+                                <div><a href="#" class="join">+加入社团</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row m-0 tab-pane" id="home4">
+                    <div class="col-12 p-0">
+                        <ul class="list-unstyled d-flex justify-content-between container p-0 m-0 address">
+                            <li class="border li_w li_p bg-white li_pro">
+                                <div class=" border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/laoshi.jpg" class="img-fluid my_img">
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">考试后的放松方法学习苏州妈妈</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="img/zuobiao.png" class="i-pl pb-1">
+                                    <span class="color">2018-10-28</span>
+                                </div>
+                                <div class="pt-2 color my_small">
+                                    “绿动未来”系列环保公益儿童剧2018巡演季《三只小猪》活动于23号正式登陆苏州
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div1">
+                                    <a href="#">
+                                        <img src="img/xiaonvhai.JPG" class="img-fluid my_img">
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">暑假班学不到的知识！</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="img/zuobiao.png" class="i-pl pb-1">
+                                    <span class="color">2018-10-08</span>
+                                </div>
+                                <div class="pt-2 color my_small">
+                                    “绿动未来”系列环保公益儿童剧2018巡演季《三只小猪》宁波杭州站顺利举办
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class=" my_div1">
+                                    <a href="#">
+                                        <img src="img/lvsetongxiang.jpg" class="img-fluid my_img">
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">“中国儿童环保教育五年计划”</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="img/zuobiao.png" class="i-pl pb-1">
+                                    <span class="color">2018-10-08</span>
+                                </div>
+                                <div class="pt-2 color my_small">
+                                    2018年5月19日，“绿色童享·中国儿童环保教育五年计划”在北京正式发布。
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                            <li class="border li_w li_p bg-white">
+                                <div class="border-danger my_div1">
+                                    <a href="#"><img src="img/liangxiao.jpg" class="img-fluid my_img">
+                                    </a>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="li_w p-p ">
+                                        <a href="#" class="a_ih a_word ">接档七夕巡演-整个夏天的快乐！</a>
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="img/zuobiao.png" class="i-pl pb-1">
+                                    <span class="color">2018-08-23</span>
+                                </div>
+                                <div class="pt-2 color my_small">
+                                    8月18日，“绿动未来”系列环保公益儿童剧《三只小猪》全国巡演第六站走进合肥
+                                </div>
+                                <div class="hd_line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--二楼-->
+            <div class="row m-0 mt-5">
+                <div class="col-2">
+                    <p>精选推荐</p>
+                </div>
+                <div class="row d-flex p-0 m-0">
+                    <div class=" m-0 p-0">
+                        <a href="Sea.html">
+                            <img src="img/haiyang.jpg" class=" img_li">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="m-0">
+                            <a href="#">
+                                <img src="img/sanren.jpg" class=" img_ri">
+                            </a>
+                        </p>
+                        <p class="m-0">
+                            <a href="#">
+                                <img src="img/xiaohai.png" class=" img_ri">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!--三楼-->
+            <div class="mt-3">
+                <p>特别鸣谢</p>
+            </div>
+            <div class="mb-5 d-flex justify-content-between">
+                <div><div class="Prev">＜</div></div>
+                <div class="d-l">
+                    <ul class="list-unstyled d-flex ulp">
+                        <li class="li-h bg-white" id="prev">
+                            <img src="img/qiygy.png" class="my-img3">
+                        </li>
+                        <li class="li-h bg-white">
+                            <img src="img/qinzi.png" class="my-img3">
+                        </li>
+                        <li class="li-h bg-white">
+                            <img src="img/qiymy.png" class="my-img3">
+                        </li>
+                        <li class="li-h bg-white">
+                            <img src="img/rengduocean.png" class="my-img3">
+                        </li>
+                        <li class="li-h bg-white">
+                            <img src="img/rompnroll.png" class="my-img3">
+                        </li>
+                        <li class="li-h bg-white">
+                            <img src="img/thrst.png" class="my-img3">
+                        </li>
+                        <li  class="li-h bg-white">
+                            <img src="img/candy.png" class=" my-img3">
+                        </li>
+                    </ul>
+                </div>
+                <div><div class="Next">＞</div></div>
+            </div>
+        </div>
+    </div>
+    <!--白色底部-->
+    <div class="bg-white pt-5 pb-5">
+        <div class="container text-center">
+            <a href="#" class="text-muted mr-3 a_ih">关于我们</a>
+            <a href="#" class="text-muted mr-3 a_ih">问题中心</a>
+            <a href="#" class="text-muted mr-3 a_ih">服务协议</a>
+            <a href="#" class="text-muted a_ih">免责条款</a>
+        </div>
+    </div>
+</div>
+<!--首页底部-->
+<footer class="my_footer" id="footer">
+
+</footer>
+
+</body>
+</html>

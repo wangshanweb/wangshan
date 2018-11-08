@@ -1,0 +1,26 @@
+/*进行中定位*/
+.li_pro{
+    position:relative;
+}
+.progressing{
+    position: absolute;
+    top:10px;
+    right:10px;
+    background: rgba(0,0,0,.5);
+    font-size: 12px;
+    border-radius: 5px;
+    padding:5px;
+}
+/*文字大小*/
+.my_small{
+    font-size:14px;
+    line-height:40px;
+    height:40px;
+    overflow: hidden !important;
+    padding: 0 17px;
+}
+/*改变图片div大小*/
+.my_div1{
+    width:255px;
+    heigth:210px;
+}

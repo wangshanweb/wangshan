@@ -1,0 +1,92 @@
+/*所有内外边距先清零*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*头和尾的背景和高宽*/
+.my_header_bg{
+    background:#59AA3A;
+    width:100%;
+}
+.my_header_bg div ul{
+    line-height:3.8rem;
+}
+/*引入头和尾*/
+
+.my_header{
+    width:100%;
+    height:4rem;
+   display: block;
+}
+.my_footer{
+    width:100%;
+    height:3.8rem;
+    display: block;
+}
+/*baoming位置*/
+.img{
+    position: absolute;
+    top:155px;
+    right:91px;
+}
+@keyframes  turn{
+    0%{
+        transform:rotate(0deg)
+    }
+
+    100%{
+        transform:rotate(360deg)
+    }
+
+}
+.img:hover{
+    cursor: pointer;
+    animation: turn 0.3s linear 1;
+}
+
+/*a标记悬停时去下划线*/
+.a_ih{
+    color: black;
+}
+.a_ih:hover{
+    text-decoration: none;
+    color: #59AA3A;
+}
+/*文字大小*/
+.my_small{
+    font-size:14px;
+    line-height:40px;
+    height:40px;
+    overflow: hidden !important;
+    padding: 0 17px;
+}
+/*免费位置*/
+.mian{
+    margin-left: 123px;
+}
+/*横线*/
+.hd_line{
+    height: 15px;
+    width:85%;
+    margin: 0 auto;
+    border-top:1px solid rgba(0,0,0,0.14);
+    margin-top: 20px;
+}
+/*li动态效果*/
+.address>li{
+    transition: all 0.2s linear;
+}
+.address>li:hover{
+    transform: translateY(-5px);
+}
+/*图片放大*/
+.BDIV{
+    width:246px;
+    height:auto;
+    overflow: hidden;
+}
+.BIMG:hover{
+    transform: scale(1.2,1.2);
+    transition: all  .5s linear;
+}

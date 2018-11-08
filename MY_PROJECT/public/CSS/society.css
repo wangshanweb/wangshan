@@ -1,0 +1,101 @@
+/*植树防沙等文字定位*/
+.li_pro{
+    position:relative;
+}
+.progressing1{
+    background: rgba(0,0,0,.5);
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 2rem;
+    padding:5px;
+}
+.d-progress{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+/*图片19*/
+.img_19{
+     width:86px;
+     height:86px;
+     background-image: url("../img/09.jpg");
+     background-position: 1px 1px;
+     border-radius:50% ;
+     position: absolute;
+     top:145px;
+     right:84px;
+ }
+
+.icon:before{
+    content:"\2625";
+}
+/*天津*/
+.small{
+    font-size: 15px;
+    color: #232323;
+    padding-left: 17px;
+}
+/*加入社团*/
+.join{
+    background: #59AA3A;
+    width:87px;
+    height:26px;
+    display: block;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+
+}
+.join:hover{
+    text-decoration: none;
+    color: #59AA3A;
+
+}
+/*绿叶*/
+.img_lvye{
+    width:86px;
+    height:86px;
+    background-image: url("../img/lvye1.png");
+    background-position: -1px 1px;
+    border-radius:50% ;
+    position: absolute;
+    top:145px;
+    right:84px;
+}
+/*蓝丝带*/
+.img_lansidai{
+    width:86px;
+    height:86px;
+    background-image: url("../img/lansidai1.png");
+    background-position:0 1px;
+    border-radius:50% ;
+    position: absolute;
+    top:145px;
+    right:84px;
+}
+/*安徽*/
+.img_anhui1{
+    width:86px;
+    height:86px;
+    background-image: url("../img/anhui1.png");
+    background-position:0 1px;
+    border-radius:50% ;
+    position: absolute;
+    top:145px;
+    right:84px;
+}
+/*小v*/
+.vv{
+    background: #59AA3A;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    top:209px;
+    right: 77px;
+    text-align: center;
+}

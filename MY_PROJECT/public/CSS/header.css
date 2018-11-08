@@ -1,0 +1,8 @@
+/*边框颜色*/
+.bor{
+    border-left-color: #7e7e7e;
+    border-right-color: #7e7e7e;
+}
+.a_h:hover{
+    text-decoration: none;
+}
