@@ -1,0 +1,53 @@
+{
+  "pages": [  
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/index/index",
+    "pages/profile/profile",
+     "pages/detail/detail", 
+    
+   
+    "pages/userDetail/userDetail",
+    "pages/contact/contact",
+    "pages/shoplist/shoplist"   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f99",
+    "navigationBarTitleText": "买买买商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#fff",
+    "selectColor": "#fc0",
+    "backgroundColor": "#f99",
+    "borderStyle": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "iconPath": "assets/tabs/home.png",
+        "selectedIconPath": "assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "详情",
+        "iconPath": "assets/tabs/message.png",
+        "selectedIconPath": "assets/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "assets/tabs/profile.png",
+        "selectedIconPath": "assets/tabs/profile-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "联系我们",
+        "iconPath": "assets/tabs/contact.png",
+        "selectedIconPath": "assets/tabs/contact-active.png"
+      }
+    ]
+  }
+}

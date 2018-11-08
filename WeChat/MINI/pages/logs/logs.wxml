@@ -1,0 +1,61 @@
+<!--logs.wxml首页-->
+<view class="slider">
+<!--indicator-dots轮播圆点  interval轮播时间  autoplay自动播放-->
+   <swiper autoplay interval="3500" indicator-dots>
+      <swiper-item wx:for="{{imagelist}}" wx:key="id">
+        <image src="{{item.img_url}}" mode="aspectFill" lazy-load width="375px" height="150px"/>
+      </swiper-item>
+   </swiper>
+</view>
+<!--首页导航分区-->
+<view class="index-nav ">
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-01(1).png" />
+        <text>美食</text>
+      </navigator>
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-02.png" />
+        <text>生活</text>
+      </navigator>
+      <navigator class="nav-item ">
+        <image src="/assets/icons/grid-03.png" />
+        <text>情侣</text>
+      </navigator>
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-04.png" />
+        <text>娱乐</text>
+      </navigator>
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-05.png" />
+        <text>办公</text>
+      </navigator>
+      <navigator class="nav-item">
+        <image src="/assets/icons/grid-06.png" />
+        <text>学习</text>
+      </navigator>
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-07.png" />
+        <text>出行</text>
+      </navigator>
+      <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-08.png" />
+        <text>工具</text>
+      </navigator>
+      <navigator class="nav-item">
+        <image src="/assets/icons/grid-09.png" />
+        <text>清洁</text>
+      </navigator>
+</view>
+<!--灰色条-->
+<view class="divider">
+  
+</view>
+<!--入口区域-->
+<view class="index-enter">
+  <navigator  class="enter-item">
+    <image src="/assets/images/link-01.png" />
+  </navigator>
+  <navigator class="enter-item">
+    <image src="/assets/images/link-02.png" />
+  </navigator>
+</view>
